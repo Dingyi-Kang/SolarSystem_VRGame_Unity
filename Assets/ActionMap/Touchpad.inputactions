@@ -1,0 +1,72 @@
+{
+    "name": "Touchpad",
+    "maps": [
+        {
+            "name": "LeftHand",
+            "id": "272f6d14-89ba-496f-b7ff-215263d3219f",
+            "actions": [
+                {
+                    "name": "Primary2DAxisClick",
+                    "type": "Button",
+                    "id": "d36e4b01-3a25-4dc6-8094-179ddb10bd71",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "85d45408-e658-4df8-ab60-de9273ceb30c",
+                    "path": "<XRController>{LeftHand}/{primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Primary2DAxisClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightHand",
+            "id": "fd87d126-5dc2-445c-82df-1abc6c9f8076",
+            "actions": [
+                {
+                    "name": "Primary2DAxisClick",
+                    "type": "Button",
+                    "id": "1c531107-9819-4f1f-a0e7-f11166016436",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "feccb40e-4fa1-488f-a2f1-f44c2b80ae37",
+                    "path": "<XRController>{RightHand}/{primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Primary2DAxisClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "XR Usage",
+            "bindingGroup": "XR Usage",
+            "devices": [
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
